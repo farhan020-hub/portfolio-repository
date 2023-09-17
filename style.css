@@ -1,3 +1,51 @@
+*{
+    margin: none;
+}
+
 body {
-    background: blue;
+    background: rgb(234, 234, 238);
   }
+
+
+header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   flex-direction: row;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: beige;
+
+ 
+}
+
+#navigation {
+
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-inline: 50px;
+
+
+
+}
+
+header nav a {
+    margin-right: 50px; 
+    text-decoration: none;
+    font-weight: bold ;
+  }
+
+  header h1 {
+    font-style: italic;
+    margin-left: 20px;
+  }
+
+  header nav a:hover{
+    color: black;
+  }
+
+
+
