@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <!--Aos-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+      <!-- Favicon io -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="style.css" />
     <title>My portfolio</title>
 </head>
@@ -13,21 +25,18 @@
     <!-- Header Section -->
     <header>
         <h1>Saman Abdiaziz</h1>
+       
 
 
         <div id="navigation">
-            <nav>
+          <nav>
             
-                <a href="" class="active">Home</a>
-           
-                <a href="">Services</a>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             
-                <a href="">About Me</a>
-            
-                <a href="">Contact Me</a>
-         
-
-    </nav>
+        </nav>
         </div>
        
 
@@ -35,65 +44,140 @@
 
     <!-- Home section -->
 
-    <div id="landing-page">
-    <div class="myjourney">
-       <div>
-        <h2>My Coding Journey</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Expedita animi, ab corrupti voluptatibus, ipsam eum iste et voluptatem adipisci magni quas praesentium, <br>consequuntur provident omnis incidunt nisi dolor ipsum vero.</p>
-       </div>
-
+    <section id="home">
+      <div id="landing-page">
+        <div class="myjourney">
+           <div>
+            <h2>My Coding Journey</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Expedita animi, ab corrupti voluptatibus, ipsam eum iste et voluptatem adipisci magni quas praesentium, <br>consequuntur provident omnis incidunt nisi dolor ipsum vero.</p>
+           </div>
+    
+        </div>
+    
+    
+    
+        <div class="myimage">
+            <img src="./images/WhatsApp_Image_2023-09-17_at_20.54.36-removebg-preview.png" alt="my image">
+    
+        </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+  </section>
 
-
-
-    <div class="myimage">
-        <img src="./images/WhatsApp_Image_2023-09-17_at_20.54.36-removebg-preview.png" alt="my image">
-
-    </div>
-</div>
-<hr>
+ 
 
 
 
 
 <!-- Services Section  -->
 
-<h1 style="margin-left: 100px ;font-family: 'Times New Roman', Times, serif; font-size:50px; font-style: italic; color: rgb(10, 9, 9); text-decoration: underline;">Services</h1>
 
-<div class="container-card">
+<section id="services">
+  <h1 style="margin-left: 100px ;font-family: 'Times New Roman', Times, serif; font-size:50px; font-style: italic; color: rgb(10, 9, 9); text-decoration: underline;">Services</h1>
 
-<div class="card">
-    <div class="card-content">
-      <h3 style="text-decoration: underline; font-family: 'Times New Roman', Times, serif;">My First Website</h3><br>
-      <p>The content below is my how i built my first website from scratch. <br>I built the website using HTML, CSS and J</p><br>
-      <a href="#">Read More.</a>
-    </div>
-  </div>
-
+  <div class="container-card">
+  
   <div class="card">
-    <div class="card-content">
-        <h3 style="text-decoration: underline; font-family: 'Times New Roman', Times, serif;">My Portfolio Website</h3><br>
-      <p>It is my first time to build a portfolio website and <br>i appreciate the intricates of how the development process is full of fun</p><br>
-      <a href="#">Read More.</a>
+      <div class="card-content">
+        <h3 style="text-decoration: underline; font-family: 'Times New Roman', Times, serif;">My First Website</h3><br>
+        <p>The content below is my how i built my first website from scratch. <br>I built the website using HTML, CSS and J</p><br>
+        <button class="read-button">Read More</button>
+      </div>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="card-content">
-      <h3>Skills Offered</h3>
-      <p>It is my first time to build a portfolio website and <br>
-        i appreciate the intricates of how the development process is full of fun<ul>
-        <li>Communications skills</li>
-        <li>Team Leader</li>
-        <li>Software Developer</li>
-      </ul></p>
-      <a href="#">Read More.</a>
+  
+    <div class="card">
+      <div class="card-content">
+          <h3 style="text-decoration: underline; font-family: 'Times New Roman', Times, serif;">My Portfolio Website</h3><br>
+        <p>It is my first time to build a portfolio website and <br>i appreciate the intricates of how the development process is full of fun</p><br>
+        <button class="read-button">Read More</button>
+      </div>
     </div>
-  </div>
+  
+    <div class="card">
+      <div class="card-content">
+        <h3>Skills Offered</h3>
+        <p>It is my first time to build a portfolio website and <br>
+          i appreciate the intricates of how the development process is full of fun<ul>
+          <li>Communications skills</li>
+          <li>Team Leader</li>
+          <li>Software Developer</li>
+        </ul></p>
+        <button class="read-button">Read More</button>
+      </div>
+    </div>
+  
+  </div><br>
+  <br>
+  <br>
+  <br>
+  <hr>
+</section>
 
-</div><br>
+
+
+<!-- About me -->
+
+<section id="about">
+  <div class="container-aboutme">
+  <div class="about">
+    <h1>About Me</h1>
+    <section class="introduction">
+        <h2>Hello, I'm Abdiaziz Saman</h2>
+        <p>I am a student at Moringa School, studying Software Engineering.</p>
+        <p>I have a passion for web development, and I've learned how to build websites using HTML, CSS, and JavaScript.</p>
+    </section>
+    <section class="interests">
+        <h2>My Interests</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Programming</li>
+            <li>Problem Solving</li>
+            <li>Continuous Learning</li>
+        </ul>
+    </section>
+</div>
+  </div>
+<br>
+<br>
 <hr>
+</section>
 
+
+
+<!-- Contact Me -->
+
+
+<section id="contact">
+  <div class="bg3">
+    <div class="contact-container">
+     
+      <form>
+        <h1 style="text-decoration: underline; text-align: center;">Contact Me</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+  
+          <input type="submit" value="Submit">
+        </form>
+  
+      </form>
+    </div>
+
+</div>
+
+</section>
 
 
 
@@ -101,6 +185,9 @@
     
 
 
+<button id="btnScrollToTop">
+  <i class="material-icons">arrow_upward</i>
+</button>
 
 
 
