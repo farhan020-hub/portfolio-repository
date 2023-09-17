@@ -239,7 +239,27 @@ input[type="submit"]:hover {
   background-color: #040504;
 }
 
+/* scroll-top*/
 
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    border-radius: 50%;
+    background: #b83120;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #f0f0f0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active{
+    background-color: #cc2333;
+}
 
 
 /* footer section */
