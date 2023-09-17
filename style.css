@@ -10,8 +10,6 @@ body {
   background-attachment: scroll;
 }
 
-
-
 /* Header Section */
 
 header {
@@ -24,9 +22,11 @@ header {
   margin-top: 30px;
 }
 
-header h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
 }
 
 #navigation {
@@ -36,10 +36,11 @@ header h1{
   margin-inline: 50px;
 }
 
-header nav a {
+nav a {
   margin-right: 50px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 30px ;
 }
 
 header h1 {
@@ -47,12 +48,9 @@ header h1 {
   margin-left: 20px;
 }
 
-header nav a:hover {
+nav a:hover {
   color: black;
 }
-
-
-
 
 /* landing page */
 
@@ -98,13 +96,11 @@ header nav a:hover {
 
 .myimage img {
   width: auto;
-  height: 100vh;
-  height: fit-content;
+  height: 700px;
+
   background-repeat: no-repeat;
   padding: 20px 15px;
 }
-
-
 
 /* Services Section */
 
@@ -112,7 +108,7 @@ header nav a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  height: 60vh;
   justify-content: space-around;
 }
 
@@ -135,13 +131,114 @@ header nav a:hover {
   margin-bottom: 20px;
 }
 
-.card a {
+.read-button {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
-  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-button:hover {
+  background-color: #8f0000;
+}
+
+/* About Me Section */
+
+
+.container-aboutme{
+
+    margin: auto;
+    height: 90vh;
+   
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 200px;
+  background-color: skyblue;
+}
+
+
+.about h1 {
+  margin-right: 1400px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(10, 10, 10);
+  text-decoration: underline;
+}
+
+.introduction h2 {
+  color: #050505;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.interests h2 {
+  color: #333;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Contact me Section */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+form {
+  width: 50%;
+  padding: 20px;
+  background-color: #f2f2f2;
   border-radius: 5px;
 }
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #040504;
+}
+
 
 
 
