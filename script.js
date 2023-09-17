@@ -47,4 +47,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       window.location.href = mailtoLink;
     });
 
+    console.log
  
