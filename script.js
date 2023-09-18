@@ -16,7 +16,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-
+// Scroll to top Events
    const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
     btnScrollToTop.addEventListener("click", function () {
@@ -32,7 +32,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 
 
-
+// Form submission Event
     const form = document.querySelector('form');
     const submitButton = form.querySelector('input[type="submit"]');
 
